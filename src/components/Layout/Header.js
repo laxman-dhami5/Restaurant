@@ -8,10 +8,12 @@ function Header() {
         <header className={classes.header}>
             <h1>Pahadi Food</h1>
             <HeaderCartButton/>
+            
         </header>
     <div className={classes['main-image']}>
-      <img src={mealsimage} alt="Healthy and Delecious food" />
+      <img src={mealsimage} alt="Healthy and Delecious food"  />
     </div>
+    
     </Fragment>
   )
 }
